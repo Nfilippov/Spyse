@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif, Arial;
+    }
+.navigation {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #000000;
+    padding: 20px 30px;
+    display: flex;
+    color: #ffffff;
+    z-index: 4;
+}
+.navigationLogo {
+    align-items: center;
+    width: 100vw;
+    display: inline-block;
+    font-size: 45px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+.navigationMenu {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.navigationMenuItem {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:15px;
+    padding: 10px 15px;
+    color: #fff;
+    transition: opacity .2s ease-in;
+}
+.navigationMenuItem:hover {
+    opacity: .7;
+}
+.introSection {
+    height: 90vh;
+    width:100vw;
+    display: flex;
+    background-image: url('../images/header1.jpg');
+    background-size: cover;
+
+}
+
+.introSection-pitch {
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color:white;
+
+}
+
+.introSectionH1 {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    display: block;
+}
+
+.introSectionH2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    display: block;
+    color: lightgray;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.callToAction {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: auto;
+    width:200px;
+    height: 75px;
+    background-color: red;
+    transition: background .2s ease-in;
+
+}
+.callToAction:hover {
+    background: white;
+    color:red;
+}
+.introSectionContent {
+    width:50%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+}
+.introSectionH3 {
+    padding-top: 20px;
+    font-size: 2.4rem;
+    line-height: 3rem;
+
+}
+
+.introSectionH4 {
+
+    font-size: 2rem;
+    line-height: 2.4rem;
+}

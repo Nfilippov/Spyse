@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPYSE – поиск одежды в твоем мессенджере</title>
+    <link href='https://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="navigationLogo">Spyse</div>
+        <div class="navigationMenu">
+            <a href="" class="navigationMenuItem">Как это работает</a>
+            <a href="" class="navigationMenuItem">Шоурумам</a>
+        </div>
+    </nav>
+    <header class="introSection">
+        <div class="introSection-pitch">
+            <div class="introSectionH1">Поиск одежды в твоем мессенджере</div>
+            <div class="introSectionH2">Spyse – это сервис объеденяющий консультантов, чтобы найти именно то что вы хотите купить. </div>
+            <a href="" class="callToAction">Добавить в Telegram</a>
+        </div>
+    </header>
+    <section class="introSectionContent">
+        <div class="introSectionH3">Новый способ совершать покупки, с фокусом на твои желания
+        </div>
+        <div class="introSectionH2 introSectionH4">Наши эксперты ответят на ваш запрос так, чтобы вы смогли сделать покупку в соответствии с вашими желаниями </div>
+    </section>
+    <section class="howItWorks">
+        <div class="howItWorksItem"></div>
+        <div class="howItWorksItem"></div>
+        <div class="howItWorksItem"></div>
+    </section>
+
+
+
+    <script src="scripts/jquery-2.2.4.min.js"></script>
+    <script src="scripts/isotope.pkgd.min.js"></script>
+      <script>
+        $(document).ready(function(){
+           $('.grid').isotope({
+                itemSelector: '.grid-item',
+                layoutMode: 'masonry',
+                masonry: {
+                  gutter:48
+                }
+
+
+           });
+       });
+      </script>
+</body>
+</html>
